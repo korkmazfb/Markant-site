@@ -1,0 +1,32 @@
+@use "../../abstract/colors";
+@use "../../abstract/mixins";
+.header{
+    width: 100vw;
+    height: 10rem;
+    background: colors.$LichtBlauw;
+    padding: 4rem;
+    
+    
+
+    &__ul{
+        @include mixins.flexcenter;
+        gap: 5.5rem;
+
+
+        :hover{
+            cursor: pointer;
+        }
+    }
+
+    
+
+   
+
+    
+    &__li{
+        list-style: none;
+        text-decoration: none;
+        
+    }
+
+}

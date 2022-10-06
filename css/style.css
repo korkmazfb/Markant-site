@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+.header {
+  width: 100vw;
+  height: 10rem;
+  background: #B5CFD8;
+  padding: 4rem;
+}
+.header__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5rem;
+}
+.header__ul :hover {
+  cursor: pointer;
+}
+.header__li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
