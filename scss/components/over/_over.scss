@@ -1,0 +1,86 @@
+@use "../../abstract/colors";
+@use "../../abstract/fonts";
+@use "../../abstract/mixins";
+
+.over {
+  background: colors.$section-color;
+  @include mixins.flexcenter;
+  gap: 15rem;
+  flex-direction: column;
+
+  & > div {
+    padding-bottom: 2rem;
+    width: 100%;
+    border-bottom: 0.3rem solid fonts.$font-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__h2 {
+    font-size: 300%;
+    color: fonts.$font-color;
+  }
+
+  &__a{
+    text-decoration: none;
+    color: fonts.$font-color;
+  }
+
+  &__ul {
+    @include mixins.flexcenter;
+    gap: 10rem;
+    list-style: none;
+  }
+
+  &__article {
+    width: 60rem;
+    height: 45rem;
+    background: blue;
+    border-radius: 0.5rem;
+    background: colors.$article-color;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__button {
+    font-size: 120%;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    list-style: none;
+    background: colors.$button-color;
+    float: right;
+    border-color: colors.$button-color-hover;
+    width: 30%;
+    background: {
+      image: linear-gradient(45deg, colors.$button-color-hover 50%, transparent 50%);
+      position: 100%;
+      size: 600%;
+      height: 5rem;
+      width: 3rem;
+    }
+
+    &__a{
+      text-decoration: none;
+    }
+
+    transition: background 300ms ease-in-out;
+    &:hover {
+      background-position: 0;
+    }
+
+    &__link {
+      text-decoration: none;
+      color: fonts.$font-color;
+      padding: 3rem;
+    }
+
+    
+  }
+  
+}
+

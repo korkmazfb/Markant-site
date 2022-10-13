@@ -1,0 +1,66 @@
+@use "../../abstract/colors";
+@use "../../abstract/mixins";
+@use "../../abstract/fonts";
+
+hr{
+    background: fonts.$font-color;
+    height: 0.3rem;
+
+}
+
+.home{
+    width: 100%;
+    background: colors.$section-color;
+
+    &__h2{
+        color: fonts.$font-color;
+        padding: 1rem;
+        @include mixins.flexcenter;
+        font-size: 300%;
+    }
+
+    &__img{
+        width: 75rem;
+        height: 50rem;
+        
+
+
+    }
+    
+    &__article{
+        flex-direction: column;
+        gap: 5rem;
+        padding-left: 4rem;
+        @include mixins.flexcenter;
+    }
+
+     &__button{
+           font-size: 300%;
+           text-decoration: none;
+           list-style: none;
+           background: colors.$button-color ;
+        float: right;
+        margin-right: 40rem;
+        margin-top: 10rem;
+        border-color: colors.$button-color;
+        background: {
+        image: linear-gradient(45deg,#CFD2CF 50%, transparent 50%);
+        position: 100%;
+        size: 600%;
+        height: 30rem;
+        }
+
+           transition: background 300ms ease-in-out;
+        &:hover {         background-position: 0;
+                 }
+
+    &__link{
+        text-decoration: none;
+        color: fonts.$font-color;
+        padding: 3rem;   }
+
+        
+    }
+        
+    
+}
