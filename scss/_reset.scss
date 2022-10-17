@@ -6,10 +6,11 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 section{
-    height: 80rem;
+    min-height: 80rem;
 }
 body{
     font-size: 2rem;

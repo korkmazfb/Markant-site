@@ -6,10 +6,11 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 section {
-  height: 80rem;
+  min-height: 80rem;
 }
 
 body {
@@ -34,6 +35,11 @@ body {
   cursor: pointer;
   color: #fff;
   box-shadow: inset 20rem 0 0 0 #06283D;
+}
+.header__link {
+  list-style: none;
+  text-decoration: none;
+  color: #06283D;
 }
 .header__li {
   list-style: none;
@@ -110,6 +116,7 @@ hr {
   align-items: center;
   gap: 15rem;
   flex-direction: column;
+  padding: 4rem;
 }
 .over > div {
   padding-bottom: 2rem;
@@ -133,6 +140,11 @@ hr {
   align-items: center;
   gap: 10rem;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .over__article {
   width: 60rem;
@@ -173,6 +185,82 @@ hr {
   text-decoration: none;
   color: #06283D;
   padding: 3rem;
+}
+
+.footer {
+  background: #B5CFD8;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer__socials {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.footer__socialsIcon {
+  border: 0.2rem solid black;
+  padding: 0.8rem;
+  border-radius: 50%;
+  font-size: 130%;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.agenda {
+  background: #E8ECF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+.agenda__img {
+  width: 130rem;
+  height: 60rem;
+  object-fit: cover;
+}
+.agenda__article {
+  width: 80rem;
+  height: 35rem;
+  background: #B5CFD8;
+  margin-bottom: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
+}
+.agenda__article--img {
+  width: 12rem;
+  height: 12rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  object-fit: cover;
+}
+.agenda__h2 {
+  padding: 4rem;
+  margin-left: 6rem;
+  width: 100%;
+}
+.agenda__div {
+  display: flex;
+  flex-direction: row;
+}
+.agenda__p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

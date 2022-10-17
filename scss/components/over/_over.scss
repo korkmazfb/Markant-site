@@ -7,6 +7,8 @@
   @include mixins.flexcenter;
   gap: 15rem;
   flex-direction: column;
+  padding: 4rem;
+ 
 
   & > div {
     padding-bottom: 2rem;
@@ -31,6 +33,11 @@
     @include mixins.flexcenter;
     gap: 10rem;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   &__article {

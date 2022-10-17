@@ -7,6 +7,7 @@
     background: colors.$header-color;
     padding: 4rem;
     
+
     
 
     &__ul{
@@ -21,6 +22,12 @@
             color: #fff;
             box-shadow: inset 20rem 0 0 0 fonts.$font-color;
         }
+    }
+
+    &__link{
+        list-style: none;
+        text-decoration: none;
+        color: fonts.$font-color;
     }
     
     &__li{
