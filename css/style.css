@@ -263,4 +263,21 @@ hr {
   padding: 4rem;
 }
 
+.nieuws {
+  background: #E8ECF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+.nieuws__article {
+  width: 80rem;
+  height: 35rem;
+  background: #B5CFD8;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */

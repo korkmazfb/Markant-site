@@ -1,0 +1,19 @@
+@use "../../abstract/colors";
+@use "../../abstract/mixins";
+@use "../../abstract/fonts";
+
+.nieuws{
+    background: colors.$section-color;
+    @include mixins.flexcenter;
+    flex-direction: column;
+    gap: 5rem;
+
+    &__article{
+        width: 80rem;
+        height: 35rem;
+        background: colors.$article-color;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
+    }
+}
