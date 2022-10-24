@@ -6,7 +6,8 @@
     background: colors.$section-color;
     @include mixins.flexcenter;
     flex-direction: column;
-    gap: 5rem;
+    gap: 4rem;
+    font-family: sans-serif;
 
     &__article{
         width: 80rem;
@@ -16,4 +17,19 @@
         margin-bottom: 5rem;
         box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
     }
+}
+
+.nieuws>article>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.nieuws>article>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
 }
