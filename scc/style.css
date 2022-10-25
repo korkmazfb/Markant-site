@@ -280,23 +280,22 @@ hr {
   box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
 }
 
-.vrijwillerger__aanmeld {
-  background: #E8ECF1;
-  padding: 2rem;
-}
-
 .aanmelden__article {
   width: 40rem;
-  height: 10rem;
-  background: #B5CFD8;
+  height: 40rem;
+  background: red;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 150%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
 }
 
-.aanmelden__article:hover {
+.vrijwillerger__aanmeld {
+  background: red;
+  padding: 2rem;
+}
+
+.vrijwillerger__aanmeld:hover {
   background: #7393A7;
   cursor: pointer;
 }
