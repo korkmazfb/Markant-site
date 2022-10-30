@@ -97,7 +97,7 @@ hr {
   background-image: linear-gradient(45deg, #CFD2CF 50%, transparent 50%);
   background-position: 100%;
   background-size: 600%;
-  height: 30rem;
+  background-height: 30rem;
   transition: background 300ms ease-in-out;
 }
 .home__button:hover {
@@ -171,8 +171,8 @@ hr {
   background-image: linear-gradient(45deg, #7393A7 50%, transparent 50%);
   background-position: 100%;
   background-size: 600%;
-  height: 5rem;
-  width: 3rem;
+  background-height: 5rem;
+  background-width: 3rem;
   transition: background 300ms ease-in-out;
 }
 .over__button__a {
@@ -281,26 +281,6 @@ hr {
   box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
 }
 
-.vrijwillerger__aanmeld {
-  background: #E8ECF1;
-  padding: 2rem;
-}
-
-.aanmelden__article {
-  width: 40rem;
-  height: 10rem;
-  background: #B5CFD8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 150%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
-}
-
-.aanmelden__article:hover {
-  background: #7393A7;
-  cursor: pointer;
-}
 .nieuws > article > h1 {
   display: flex;
   justify-content: center;
@@ -341,6 +321,27 @@ hr {
   border: solid black 0.2px;
   height: 3rem;
   width: 50rem;
+}
+
+.vrijwillerger__aanmeld {
+  background: #E8ECF1;
+  padding: 2rem;
+}
+
+.aanmelden__article {
+  width: 40rem;
+  height: 10rem;
+  background: #B5CFD8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
+}
+
+.aanmelden__article:hover {
+  background: #7393A7;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
