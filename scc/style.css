@@ -97,7 +97,7 @@ hr {
   background-image: linear-gradient(45deg, #CFD2CF 50%, transparent 50%);
   background-position: 100%;
   background-size: 600%;
-  height: 30rem;
+  background-height: 30rem;
   transition: background 300ms ease-in-out;
 }
 .home__button:hover {
@@ -171,8 +171,8 @@ hr {
   background-image: linear-gradient(45deg, #7393A7 50%, transparent 50%);
   background-position: 100%;
   background-size: 600%;
-  height: 5rem;
-  width: 3rem;
+  background-height: 5rem;
+  background-width: 3rem;
   transition: background 300ms ease-in-out;
 }
 .over__button__a {
@@ -269,8 +269,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 4rem;
-  font-family: sans-serif;
+  gap: 5rem;
 }
 .nieuws__article {
   width: 80rem;
@@ -281,74 +280,24 @@ hr {
   box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
 }
 
-.vrijwillerger__aanmeld {
-  background: #E8ECF1;
-  padding: 2rem;
-}
-
 .aanmelden__article {
   width: 40rem;
-  height: 10rem;
-  background: #B5CFD8;
+  height: 40rem;
+  background: red;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 150%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
 }
 
-.aanmelden__article:hover {
+.vrijwillerger__aanmeld {
+  background: red;
+  padding: 2rem;
+}
+
+.vrijwillerger__aanmeld:hover {
   background: #7393A7;
   cursor: pointer;
-}
-.nieuws > article > h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
-  padding: 1rem;
-}
-
-.nieuws > article > p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  padding: 1rem;
-}
-
-.contact {
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  gap: 1rem;
-  font-family: sans-serif;
-  font-size: 2rem;
-  background-color: #eee;
-}
-
-.contact__ver {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
-}
-
-.contact__ver > input {
-  width: 60rem;
-  height: 5rem;
-  text-align: center;
-  font-size: 2rem;
-}
-
-.contact__verzenden {
-  font-size: 2rem;
-  padding: 1rem;
-  background-color: rgb(0, 233, 221);
-  border: none;
-  border-radius: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

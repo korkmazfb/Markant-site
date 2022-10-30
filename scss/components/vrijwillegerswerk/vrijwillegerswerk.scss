@@ -1,0 +1,24 @@
+@use "../../abstract/colors";
+@use "../../abstract/mixins";
+@use "../../abstract/fonts";
+
+.vrijwillerger__aanmeld{
+    background: colors.$section-color;
+    padding: 2rem;
+}
+
+.aanmelden__article{
+    width: 40rem;
+    height: 10rem;
+    background: colors.$article-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
+}
+
+.aanmelden__article:hover{
+    background: colors.$button-color-hover;
+    cursor: pointer;
+}
