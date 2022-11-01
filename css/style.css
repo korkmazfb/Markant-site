@@ -64,6 +64,7 @@ hr {
 .home {
   width: 100%;
   background: #E8ECF1;
+  gap: 4rem;
 }
 .home__h2 {
   color: #06283D;
@@ -72,15 +73,17 @@ hr {
   justify-content: center;
   align-items: center;
   font-size: 300%;
+  position: absolute;
+  z-index: 1;
 }
 .home__img {
-  width: 75rem;
-  height: 50rem;
+  width: 100vw;
+  height: 100rem;
+  position: relative;
 }
 .home__article {
   flex-direction: column;
   gap: 5rem;
-  padding-left: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,7 +143,6 @@ hr {
   align-items: center;
   gap: 10rem;
   list-style: none;
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -227,6 +229,7 @@ hr {
   align-items: center;
   flex-direction: column;
   gap: 5rem;
+  padding-top: 3rem;
 }
 .agenda__img {
   width: 130rem;
@@ -297,7 +300,7 @@ hr {
 }
 
 .contact {
-  background: #E8ECF1;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -305,22 +308,30 @@ hr {
   text-align: center;
   gap: 1rem;
   font-family: sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  background-color: #eee;
 }
 
-.contact > h2 {
-  background-color: #B5CFD8;
-  padding: 1.5rem;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+.contact__ver {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  padding: 2rem;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
 }
 
-.contact > h2 > input {
-  border: solid black 0.2px;
-  height: 3rem;
-  width: 50rem;
+.contact__ver > input {
+  width: 60rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact__verzenden {
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: rgb(0, 233, 221);
+  border: none;
+  border-radius: 0.6rem;
 }
 
 .vrijwillerger__aanmeld {

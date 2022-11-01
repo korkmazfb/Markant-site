@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
-    <script src="https://kit.fontawesome.com/44df10ddff.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/44df10ddff.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Markant</title>
   </head>
 
@@ -13,22 +16,67 @@
     <header class="header">
       <nav class="header__nav">
         <ul class="header__ul">
-          <li class="header__li"> <a class="header__link" href="/index.html">HOME</a> </li>
-          <li class="header__li"> <a class="header__link" href="#over">OVER MARKANT</a>  </li>
-          <li class="header__li"> <a class="header__link" href="/agenda.html">AGENDA</a></li>
-          <li class="header__li"> <a class="header__link" href="/nieuws.html">NIEUWS</a></li>
-          <li class="header__li"><a  class="header__link" href="/vrijwillegerswerk.html">VRIJWILLIGERWERK</a></li>
-          <li class="header__li"><a  class="header__link" href="#contact">CONTACT</a></li>
+          <li class="header__li">
+            <a class="header__link" href="/index.html">HOME</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#over">OVER MARKANT</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="/agenda.html">AGENDA</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="/nieuws.html">NIEUWS</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="/vrijwillegerswerk.html"
+              >VRIJWILLIGERWERK</a
+            >
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#contact">CONTACT</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <section id="contact" class="contact">
-        <h1>Contact</h1>
-        <h2 class="voornaam__contact"> voornaam <input type="text"> </h2>
-        <h2 class="achternaam__contact"> achternaam <input type="text"> </h2>
-        <h2 class="leeftijd__contact"> leeftijd <input type="text"> </h2>
-        <h2 class="email__contact"> email <input type="email"> </h2>
-        <h2 class="telefoon__contact"> telefoon <input type="number"> </h2>
-        <h2 class="bericht__contact"> uw bericht <input type="text"> </h2>
+      <h1>Contact</h1>
+      <form action="" class="contact">
+        <div class="contact__ver">
+          <h3>Voornaam*</h3>
+          <input type="text" name="" placeholder="Mattrex" id="" required />
+        </div>
+        <div class="contact__ver">
+          <h3>Achternaam*</h3>
+          <input
+            type="text"
+            name=""
+            placeholder="Van der valken"
+            id=""
+            required
+          />
+        </div>
+        <div class="contact__ver">
+          <h3>Email*</h3>
+          <input
+            type="text"
+            name=""
+            placeholder="Matterx@gmail.com"
+            id=""
+            required
+          />
+        </div>
+        <div class="contact__ver">
+          <h3>Gebortedatum*</h3>
+          <input type="text" name="" placeholder="05/02/1999" id="" required />
+        </div>
+        <div class="contact__ver">
+          <h3>Telefoon*</h3>
+          <input type="text" name="" placeholder="+31" id="" required />
+        </div>
+        <input class="contact__verzenden" type="submit" value="Verzenden" />
+      </form>
     </section>
+  </body>
+</html>

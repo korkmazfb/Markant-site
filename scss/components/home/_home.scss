@@ -11,23 +11,32 @@ hr{
 .home{
     width: 100%;
     background: colors.$section-color;
+    gap: 4rem;
+   
+
+
 
     &__h2{
         color: fonts.$font-color;
         padding: 1rem;
         @include mixins.flexcenter;
         font-size: 300%;
+        position: absolute;
+        z-index: 1;
+        
     }
 
     &__img{
-        width: 75rem;
-        height: 50rem;
+        width: 100vw;
+        height: 100rem;
+        position: relative;
+        
+        
     }
     
     &__article{
         flex-direction: column;
         gap: 5rem;
-        padding-left: 4rem;
         @include mixins.flexcenter;
     }
 
