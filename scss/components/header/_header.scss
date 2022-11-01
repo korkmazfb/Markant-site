@@ -6,28 +6,22 @@
     height: 10rem;
     background: colors.$header-color;
     padding: 4rem;
-    
+    @include mixins.flexcenter;
 
     
 
     &__ul{
         @include mixins.flexcenter;
         gap: 9rem;
-        transition: color .3s ease-in-out;
-        box-shadow: .3s ease-in-out;
-
-
-        :hover{
-            cursor: pointer;
-            color: #fff;
-            box-shadow: inset 20rem 0 0 0 fonts.$font-color;
-        }
+        list-style: none;
+   
     }
 
     &__link{
         list-style: none;
         text-decoration: none;
         color: fonts.$font-color;
+       
     }
     
     &__li{
@@ -43,6 +37,19 @@
         :hover{
             color: colors.$font-color;
             box-shadow: inset 20rem 0 0 0 fonts.$font-color;
+            cursor: pointer;
+            color: #fff;
+            box-shadow: inset 20rem 0 0 0 fonts.$font-color;
+        }
+    }
+
+    &__logo{
+        width: 7.5rem;
+        height: 7.5rem;
+        
+
+        :hover{
+            background: colors.$header-color;
         }
     }
 

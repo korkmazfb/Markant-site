@@ -15,6 +15,7 @@ section {
 
 body {
   font-size: 2rem;
+  overflow-x: hidden;
 }
 
 .header {
@@ -22,19 +23,16 @@ body {
   height: 10rem;
   background: #B5CFD8;
   padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header__ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 9rem;
-  transition: color 0.3s ease-in-out;
-  box-shadow: 0.3s ease-in-out;
-}
-.header__ul :hover {
-  cursor: pointer;
-  color: #fff;
-  box-shadow: inset 20rem 0 0 0 #06283D;
+  list-style: none;
 }
 .header__link {
   list-style: none;
@@ -54,6 +52,16 @@ body {
 .header__li :hover {
   color: #eee;
   box-shadow: inset 20rem 0 0 0 #06283D;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: inset 20rem 0 0 0 #06283D;
+}
+.header__logo {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.header__logo :hover {
+  background: #B5CFD8;
 }
 
 hr {
