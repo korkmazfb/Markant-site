@@ -19,10 +19,14 @@ hr{
     &__h2{
         color: fonts.$font-color;
         padding: 1rem;
-        @include mixins.flexcenter;
         font-size: 300%;
         position: absolute;
         z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-shadow: 0 0 0.9rem white;
         
     }
 

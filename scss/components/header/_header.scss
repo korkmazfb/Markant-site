@@ -2,7 +2,7 @@
 @use "../../abstract/mixins";
 @use "../../abstract/fonts";
 .header{
-    width: 100%;
+    width: 100vw;
     height: 10rem;
     background: colors.$header-color;
     padding: 4rem;

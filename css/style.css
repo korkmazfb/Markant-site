@@ -11,6 +11,7 @@ html {
 
 section {
   min-height: 80rem;
+  width: 100vw;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 100vw;
   height: 10rem;
   background: #B5CFD8;
   padding: 4rem;
@@ -77,12 +78,14 @@ hr {
 .home__h2 {
   color: #06283D;
   padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 300%;
   position: absolute;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 0 0 0.9rem white;
 }
 .home__img {
   width: 100vw;
