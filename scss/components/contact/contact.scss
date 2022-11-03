@@ -11,8 +11,7 @@
     gap: 1rem;
     font-family: sans-serif;
     font-size: 2rem;
-    background-color: #eee;
-
+    background: colors.$article-color;
 }
 .contact__ver{
     display: flex;
@@ -31,7 +30,7 @@
 .contact__verzenden{
     font-size: 2rem;
     padding: 1rem;
-    background-color: rgb(0, 233, 221);
+    background: colors.$button-color;
     border: none;
     border-radius: 0.6rem;
 }

@@ -30,12 +30,12 @@
   }
 
   &__ul {
-    @include mixins.flexcenter;
-    gap: 10rem;
-    list-style: none;
-    flex-wrap: wrap;
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10rem;
+    list-style: none;
+    flex-direction: column;
     width: 100%;
   }
 
