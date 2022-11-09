@@ -41,6 +41,15 @@
         width: 100%;
     }
 
+    &__titel{
+        font-size: 300%;
+        color: fonts.$font-color;
+        background: #E8ECF1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     &__div{
         display: flex;
         flex-direction: row;

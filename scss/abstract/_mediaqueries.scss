@@ -1,0 +1,73 @@
+@media screen and (max-width: 86rem){
+   .header{
+    height: 100%;
+    padding: 1rem;
+   }
+   
+    .header__ul{
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+   }
+   .header__link{
+    padding-bottom: 2rem;
+   }
+   .home__img{
+    display: none;
+   }
+   .home__h2{
+    margin-top: 40rem;
+   }
+   section{
+    min-height: 40rem;
+   }
+   .agenda__article{
+    width: 100%;
+    height: 100%;
+    }
+    .agenda__h2{
+    font-size: 200%;
+    margin-left: 0;
+    }
+    .agenda__titel{
+    font-size: 200%;
+    }   
+    .over__article{
+        width: 100%;
+        height: 100%;
+    }
+    .home__h2{
+        font-size: 200%;
+    }
+    .over__titel{
+        font-size: 200%;
+    }
+    .nieuws__article{
+        width: 100%;
+        height: 100%;
+    }
+    .contact{
+        width: 100%;
+        height: 100%;
+    }
+   
+    .contact__ver > input{
+        width: 100%;
+        height: 100%;
+    }
+    .form__contact{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 25rem){
+    
+    .agenda__h2{
+        font-size: 200%;
+        padding: 1rem;
+    }
+    
+    
+    
+}
