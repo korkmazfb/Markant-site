@@ -17,6 +17,7 @@ section {
 body {
   font-size: 2rem;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 .header {
@@ -144,24 +145,33 @@ hr {
   font-size: 300%;
   color: #06283D;
 }
+.over__datum {
+  font-size: 90%;
+}
+.over__p {
+  margin-bottom: 3rem;
+}
+.over__titel {
+  font-size: 300%;
+  color: #06283D;
+  margin-bottom: 3rem;
+}
 .over__a {
   text-decoration: none;
   color: #06283D;
 }
 .over__ul {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 10rem;
   list-style: none;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   width: 100%;
 }
 .over__article {
-  width: 60rem;
-  height: 45rem;
+  width: 80rem;
+  height: 40rem;
   background: blue;
   border-radius: 0.5rem;
   background: #B5CFD8;
@@ -276,6 +286,10 @@ hr {
   justify-content: center;
   padding: 4rem;
 }
+.agenda__datum {
+  font-size: 90%;
+  margin-left: 4rem;
+}
 
 .nieuws {
   background: #E8ECF1;
@@ -293,6 +307,7 @@ hr {
   margin-top: 5rem;
   margin-bottom: 5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
+  padding: 4rem;
 }
 
 .nieuws > article > h1 {
@@ -320,7 +335,7 @@ hr {
   gap: 1rem;
   font-family: sans-serif;
   font-size: 2rem;
-  background-color: #eee;
+  background: #B5CFD8;
 }
 
 .contact__ver {
@@ -340,7 +355,7 @@ hr {
 .contact__verzenden {
   font-size: 2rem;
   padding: 1rem;
-  background-color: rgb(0, 233, 221);
+  background: #a4cbd8;
   border: none;
   border-radius: 0.6rem;
 }

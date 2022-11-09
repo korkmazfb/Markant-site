@@ -24,6 +24,20 @@
     color: fonts.$font-color;
   }
 
+  &__datum{
+    font-size: 90%;
+  }
+
+  &__p{
+    margin-bottom: 3rem;
+  }
+
+  &__titel{
+    font-size: 300%;
+    color: fonts.$font-color;
+    margin-bottom: 3rem;
+  }
+
   &__a{
     text-decoration: none;
     color: fonts.$font-color;
@@ -40,8 +54,8 @@
   }
 
   &__article {
-    width: 60rem;
-    height: 45rem;
+    width: 80rem;
+    height: 40rem;
     background: blue;
     border-radius: 0.5rem;
     background: colors.$article-color;
